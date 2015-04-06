@@ -33,7 +33,7 @@ module.exports = function (app, passport) {
   
 
   // user routes
-  app.get('/login', users.login);
+  /*app.get('/login', users.login);
   app.get('/signup', users.signup);
   app.get('/logout', users.logout);
   app.post('/users', users.create);
@@ -117,9 +117,9 @@ module.exports = function (app, passport) {
   app.get('/tags/:tag', tags.index);
 
 
-  /**
+  *//**
    * Error handling
-   */
+   *//*
 
   app.use(function (err, req, res, next) {
     // treat as 404
@@ -139,5 +139,5 @@ module.exports = function (app, passport) {
       url: req.originalUrl,
       error: 'Not found'
     });
-  });
+  });*/
 }
