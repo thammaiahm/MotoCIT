@@ -26,3 +26,14 @@ exports.showwelcomepage = function (req, res) {
 		  });
 		};
 
+
+		
+		/**
+		 * Akshatha
+		 * New node file- used for uploading testcases
+		 */	
+exports.displayloadtest = function(req, res){
+	res.render('rsd/loadtestcasepage',{
+	  title:'Akshatha'
+	});	
+};
