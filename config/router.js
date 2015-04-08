@@ -18,4 +18,9 @@ module.exports = function (app) {
 	 */
 	app.get('/loadtestcase',rsd.displayloadtest);
 	
+	/*
+	 * Added By Chethana
+	 * */
+	app.get('/rsdRecipeGeneration', rsd.showrecipegeneration);
+	
 };

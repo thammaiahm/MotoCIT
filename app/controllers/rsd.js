@@ -37,3 +37,15 @@ exports.displayloadtest = function(req, res){
 	  title:'Akshatha'
 	});	
 };
+
+
+/*
+	*Chethana
+	*For New module Recipe Generation
+*/
+exports.showrecipegeneration = function (req, res) {
+	  res.render('rsd/rsdRecipeGeneration',{
+		  title:'chethana'
+		  });
+		};
+
